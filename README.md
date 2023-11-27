@@ -3,6 +3,24 @@
 ## Overview
 This project demonstrates the automation of hyperparameter tuning for a RandomForestRegressor model using the Optuna optimization framework. The goal is to find the optimal hyperparameters that minimize mean squared error on the Diabetes dataset
 
+
+## Diabetes Dataset
+
+The project utilizes the Diabetes dataset, a widely used dataset in machine learning and diabetes research. This dataset consists of ten baseline variables, six blood serum measurements, and responses of interest, making it suitable for regression tasks.
+
+### Dataset Details
+
+- **Source:** The Diabetes dataset is commonly included in machine learning libraries, including scikit-learn.
+- **Attributes:** The dataset includes features such as age, sex, body mass index, average blood pressure, and six blood serum measurements.
+- **Target Variable:** The target variable represents a quantitative measure of disease progression one year after baseline.
+
+### Usage
+
+The dataset is loaded and used within the Jupyter Notebook (`hyperparameter_tuning.ipynb`). Follow the instructions in the notebook to load the dataset and optimize hyperparameters for the RandomForestRegressor model.
+
+For more information about the Diabetes dataset, refer to the [scikit-learn documentation](https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset).
+
+
 ## Getting Started
 Prerequisites
 Python 3.x
